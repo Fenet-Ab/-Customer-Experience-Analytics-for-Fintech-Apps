@@ -32,7 +32,5 @@ jobs:
 
     - name: Check formatting with Black
       run: black --check .
-      schedule:
-    - cron: "0 0 * * *"   # Every day at midnight
-
+   
 
